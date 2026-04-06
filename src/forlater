@@ -1,0 +1,33 @@
+ArrayList<Integer> shufNum = new ArrayList<>();
+        
+        for(int i = 1 ; i <= 4 ; i++){
+            shufNum.add(i);
+            shufNum.add(i);
+        }
+        shufNum.add(0);
+
+        Collections.shuffle(shufNum);
+
+for(int cardNum :  shufNum){
+            JButton tile;
+
+            Image cardImage = new ImageIcon(getClass().getResource("./cards/Card"+ cardNum +".jpg")).getImage();
+            Image scaledCardImage = cardImage.getScaledInstance(125, 125, Image.SCALE_SMOOTH);    
+
+            tile = new JButton(new ImageIcon(scaledCardImage));
+            tile.setPreferredSize(new Dimension(125,125));
+            tile.addActionListener(this);
+            
+            this.add(tile);
+        }
+
+        int value = (int) button.getClientProperty("cardValue");
+        
+for(int i = 1 ; i <= 9 ; i++){
+            Image cardBackImage = new ImageIcon(getClass().getResource("./cards/back.png")).getImage();
+            Image scaledCardBackImage = cardBackImage.getScaledInstance(125, 125, Image.SCALE_SMOOTH);
+
+            backImage = new JButton(new ImageIcon(scaledCardBackImage));
+            backImage.addActionListener(this);
+            this.add(backImage);
+        }
