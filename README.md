@@ -1,18 +1,16 @@
-## Getting Started
+# Courageous Search
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based card pairing game inspired by *Courage the Cowardly Dog*. Players flip cards to find pairs, and each successful match triggers a question, adding an extra challenge beyond memory and making the game more interactive.
 
-## Folder Structure
+## Features
+- Classic card matching gameplay
+- Interactive questions appear when a match is made
+- Built with Java
+- Simple, nostalgic theme based on Courage the Cowardly Dog
 
-The workspace contains two folders by default, where:
+## Project Structure
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to Run
+1. Clone the repository:
+```bash
+git clone https://github.com/dreicodes1/Courageous-Search.git
