@@ -14,3 +14,7 @@ A Java-based card pairing game inspired by *Courage the Cowardly Dog*. Players f
 1. Clone the repository:
 ```bash
 git clone https://github.com/dreicodes1/Courageous-Search.git
+```
+2. Open the project in your preferred Java IDE (VS Code, Eclipse, IntelliJ)
+3. Compile and run the Main.java file (or the main class of your game)
+4. Enjoy the game!
